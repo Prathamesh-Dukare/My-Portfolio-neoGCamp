@@ -20,7 +20,10 @@ p{
     padding: 0.1em 10vw;
     font-size: 1.25rem;
 }
-
+.buttons {
+    padding: 0.2rem;
+    margin: 1.5rem auto;
+}
 .p-link{
     text-decoration: none;
     padding: 0.7rem;
@@ -35,6 +38,10 @@ p{
     padding: 0.7rem;
     border-radius: 0.7rem;
     color: var(--primary);
+}
+.s-link:hover{
+    background-color: #e1d6ff;
+
 }
 .ul{
     list-style-type: none;
