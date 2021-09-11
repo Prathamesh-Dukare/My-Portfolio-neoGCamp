@@ -73,7 +73,9 @@ nav{
     color: white;
     text-decoration: none;
 }
-
+/* .nav-link:hover{
+    font-size: larger;
+} */
 .centered{
     text-align: center;
 }
