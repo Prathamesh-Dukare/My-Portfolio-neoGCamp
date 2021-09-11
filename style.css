@@ -3,14 +3,20 @@
     --gray: #F3F4F6;
     --dark-gray: #6B7280;
 }
-/* *{
+*{
     padding:0;
     margin: 0;
-
-} */
+}
 body{
     font-family: system-ui;
+}body{
+    font-family: system-ui;
 }
+/* ............. */
+.brandname{
+    margin: 0.5em;
+}
+
 .p-link{
     text-decoration: none;
     padding: 0.7rem;
@@ -37,18 +43,20 @@ body{
 }
 
 nav{
-    background-color:var(--primary);
+    background-color: var(--primary);
     color: white;
     font-size: larger;
-    border-bottom-left-radius: 2rem;
-    margin: -8px;
+    border-bottom-left-radius: 1.5rem;
+    /* margin: -8px; */
+    border-bottom-right-radius: 1.5rem;
 }
 .nav-link-container{
     display: flex;
     padding: 1rem;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 7px;
     margin: -8px;
+    height: 2.2em;
 }
 .nav-link{
     color: white;
@@ -89,10 +97,11 @@ nav{
     height: 26vh;
 } */
 .footer{
-    background-color:var(--primary);
+    background-color: var(--primary);
     color: white;
-    border-top-right-radius: 2rem;
-    margin: 0px -8px;
+    border-top-right-radius: 1.5rem;
+    /* margin: 0px -8px; */
+    border-top-left-radius: 1.5rem;
     
 }
 .link{
@@ -109,4 +118,12 @@ nav{
     position: relative;
     top:0rem;
     right:1vw;
+}
+ul.ul.social {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0.5rem auto;
+    font-size: 1.3rem;
 }
