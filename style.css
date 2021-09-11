@@ -16,6 +16,10 @@ body{
 .brandname{
     margin: 0.5em;
 }
+p{
+    padding: 0.1em 10vw;
+    font-size: 1.25rem;
+}
 
 .p-link{
     text-decoration: none;
@@ -85,17 +89,29 @@ nav{
 }
 .normal-sec{
     text-align: center;
-    /* height: 23vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+.normal-sec .s-link {
+    margin: 1rem auto;
 }
 .offw-sec{
     text-align: center;
     background-color: var(--gray);
-    /* height: 10rem; */
-    padding: 1rem;
+    padding: 2rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-/* .offw2{
-    height: 26vh;
-} */
+.offw-sec .s-link {
+    margin: 1em auto;
+}
 .footer{
     background-color: var(--primary);
     color: white;
