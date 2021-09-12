@@ -90,6 +90,9 @@ nav{
     text-align: center;
     color: var(--dark-gray)
 }
+header.hero-container {
+    padding: 8vh;
+}
 .hero img{
     max-width: 25vw;
     margin: auto;
@@ -152,3 +155,24 @@ ul.ul.social {
     margin: 0.5rem auto;
     font-size: 1.3rem;
 }
+/* @Media Queries  */
+@media screen and (max-width:500px){
+    .offw-sec{
+        padding: 2rem 0.5rem;
+    }
+    .normal-sec{
+        padding: 2rem 0.5rem;
+    }
+    header.hero-container {
+        padding: 5vh;
+    }
+}
+@media screen and (max-width:400px){
+    .offw-sec{
+        padding: 2rem 0rem;
+    }
+    .normal-sec{
+        padding: 2rem 0rem;
+    }
+}
+
