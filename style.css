@@ -108,6 +108,7 @@ header.hero-container {
     padding: 2rem;
     margin: 1rem;
 }
+
 .normal-sec .s-link {
     margin: 1rem auto;
 }
@@ -156,6 +157,22 @@ ul.ul.social {
     font-size: 1.3rem;
 }
 /* @Media Queries  */
+@media screen and (min-width:1160px){
+    .normal-sec{
+        padding: 2rem 10rem;
+    }
+    .offw-sec{
+        padding: 2rem 10rem;
+    }
+}
+@media screen and (max-width:640px){
+    .normal-sec{
+        padding: 2rem 1rem;
+    }
+    .offw-sec{
+        padding: 2rem 1rem;
+    }
+}
 @media screen and (max-width:500px){
     .offw-sec{
         padding: 2rem 0.5rem;
