@@ -156,6 +156,26 @@ ul.ul.social {
     margin: 0.5rem auto;
     font-size: 1.3rem;
 }
+
+/* Scroll Button  */
+#top-scroll-btn{
+    display: none;
+    position: fixed;
+    bottom: 13.3vh;
+    right: 10px;
+    z-index:99;
+    border: 2px solid #69676c;
+    background-color: #a897c5;
+    color: white;
+    cursor: pointer;
+    font-size: 1.33rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 0.2em;
+}
+#top-scroll-btn:hover{
+    background-color: #7C3AED;
+}
 /* @Media Queries  */
 @media screen and (min-width:1160px){
     .normal-sec{
