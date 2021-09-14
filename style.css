@@ -1,5 +1,5 @@
 :root{
-    --primary: #7C3AED;
+    --primary: #443ca7;
     --gray: #F3F4F6;
     --dark-gray: #6B7280;
 }
@@ -165,7 +165,7 @@ ul.ul.social {
     right: 10px;
     z-index:99;
     border: 2px solid #69676c;
-    background-color: #a897c5;
+    background-color: #6B7280;
     color: white;
     cursor: pointer;
     font-size: 1.33rem;
@@ -174,7 +174,7 @@ ul.ul.social {
     padding: 0.2em;
 }
 #top-scroll-btn:hover{
-    background-color: #7C3AED;
+    background-color: #554ea7;
 }
 /* @Media Queries  */
 @media screen and (min-width:1160px){
